@@ -43,3 +43,4 @@ include ':app_sample_kotlin'
 include ':app_sample_compose'
 
 include ':compose_basic:app01_greeting_card'
+include ':compose_basic:app02_happy_birthday'
