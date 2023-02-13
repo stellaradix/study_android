@@ -1,0 +1,44 @@
+plugins {
+	id 'com.android.application'
+}
+
+android {
+	namespace 'com.example.javasample'
+	compileSdk compileSdkVer
+
+	defaultConfig {
+		applicationId "com.example.javasample"
+		minSdk minSdkVer
+		targetSdk targetSdkVer
+		versionCode 1
+		versionName "1.0"
+
+		testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+	}
+
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+		}
+	}
+
+	compileOptions {
+		sourceCompatibility javaVer
+		targetCompatibility javaVer
+	}
+}
+
+dependencies {
+	// androidx
+	implementation "androidx.appcompat:appcompat:$x_appcompat"
+	implementation "androidx.constraintlayout:constraintlayout:$x_constraintlayout"
+
+	// Google material design
+	implementation "com.google.android.material:material:$g_material"
+
+	// Test
+	testImplementation "junit:junit:$junit_junit"
+	androidTestImplementation "androidx.test.ext:junit:$x_test_ext_junit"
+	androidTestImplementation "androidx.test.espresso:espresso-core:$x_test_espresso"
+}
