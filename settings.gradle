@@ -41,3 +41,5 @@ rootProject.name = "Android Study"
 include ':app_sample_java'
 include ':app_sample_kotlin'
 include ':app_sample_compose'
+
+include ':compose_basic:app01_greeting_card'
