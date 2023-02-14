@@ -38,9 +38,13 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Android Study"
+
+// Sample App
 include ':sample:app_java'
 include ':sample:app_kotlin'
 include ':sample:app_compose'
 
+/* Codelab Course: Android Basics with Compose */
 include ':compose_basic:app01_greeting_card'
 include ':compose_basic:app02_happy_birthday'
+include ':compose_basic:app03_compose_article'
