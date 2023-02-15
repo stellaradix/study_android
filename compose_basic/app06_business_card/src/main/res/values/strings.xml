@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">Business Card</string>
+
+	<string name="business_card_name">Jennifer Doe</string>
+	<string name="business_card_spec">Android Developer Extraordinaire</string>
+	<string name="business_card_phone">+11 (123) 444 555 666</string>
+	<string name="business_card_handle">\@AndroidDev</string>
+	<string name="business_card_email">jen.doe@android.com</string>
 </resources>
